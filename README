@@ -1,0 +1,9 @@
+Strcuture of the project:
+
+database/: a export of the database structure
+htdocs/: the source code
+documentation/: the documentation of the project
+
+The HTTP url of the project
+http://evaluation-enseignants.toile-libre.org/
+

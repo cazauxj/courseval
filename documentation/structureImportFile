@@ -1,0 +1,5 @@
+a) student.csv:
+lastname,firstname,email,isDelegate,CMgroup,TDgroup,TPgroup,{apogeeCode}
+
+b) teacher.csv:
+lastname,firstname,{apogeeCode,CM,TD,TP}

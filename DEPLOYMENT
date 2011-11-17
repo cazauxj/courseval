@@ -1,0 +1,7 @@
+Mandatory configuration:
+
+- a Linux server
+- an Apache HTTP Server (frontal)
+- PHP server
+- a MySQL database
+- a PhpMyAdmin tool (very nice tool to manage a database)
