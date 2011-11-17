@@ -1,0 +1,250 @@
+/*
+ * Teacher evaluation project
+ * Copyright (C) Polytech'Grenoble 2009.
+ * Contact Jeremy.Cazaux@mailoo.org
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
+ * USA
+*/
+a:link, a:visited, a:active a:hover{color:#1A2D6D;text-decoration:underline;}
+a img { border-width :0;}
+em {font-weight:bold;}
+p{
+	font-family:Verdana,"Trebuchet MS",Arial,Verdana;
+	color:black;
+	font-size:11px;
+	line-height:15px;
+	margin-top:11px;
+	margin-bottom:11px;
+	padding:0px
+}body {	
+	margin:auto;
+	margin-top:40px;
+	width: 1024px;
+	/*background:green;*/
+	background-color:#97a4ac;
+}#contener{
+	padding:10px 11px 0px 11px;
+	width:1000px;
+	background-color:#ccccff;
+	border-top:1px solid black;
+	border-left: 1px solid #3b0909;
+	border-right: 1px solid #3b0909;
+}.header{
+	border-top:  1px solid #3b0909;
+	border-left: 1px solid #3b0909;
+	border-right:1px solid #3b0909;	
+}.bienvenu{
+	padding-left:10px;
+	background-color:#ccccff;
+}span.colorBlue{
+	font-weight:bold;
+	color:#1A2D6D;
+}.contenerFiche{
+	padding:0px 12px 0px 12px;
+}.connexion{
+	border: 1px solid gray;
+	width:950px;
+	margin: 10px 0px 000px 15px;
+	padding: 10px;
+}.contenairSection{
+	border: 1px solid gray;
+	width:980px;
+	margin: 10px 0px 10px -15px;
+	padding: 10px;
+}.section{
+	margin: 0px 0px 30px 0px;
+}.titreSection{
+	text-decoration:underline;
+	font-style:italic;
+	font-weight :bold;
+}.clear {
+	clear:both;
+	height:1px;
+	overflow:hidden;
+}.wrapper {
+	overflow:hidden; 
+}.leftQuestion {
+	float:left;
+	width:600px;
+}.rightRadioButton{
+	float:right;
+	width:200px;
+}.commentaire{
+	float:left;
+	width:400px;
+	margin-top:10px;
+}.commentaireRigth{
+	float:left;
+	width:400px;
+	margin-left:100px;
+	margin-top:10px;
+}.button_identification{
+	margin-left:15px;
+}.button{
+	width:25px;
+	margin-right:25px;
+	float:left;
+	text-align:center;
+}.titrePage{
+	text-align:center;
+	font-weight:bold;
+	font-size:19px;
+	line-height:19px;
+	border:7px solid black;
+}.descriptif{
+	text-align:center;
+	font-style:italic;
+	margin:0px 100px 0px 100px;
+}.descriptif2{
+	text-align:left;
+	font-style:italic;
+	margin:10px 10px 15px 10px;
+}.entete{
+	border-bottom:1px solid black;
+	padding:0px 10px 0px 10px;
+}.entete2{
+	border-bottom:1px solid black;
+	padding:0px 10px 0px 10px;
+	margin:10px 0px 10px 0px;
+}.leftEntete{
+	float:left;
+	width:300px; 
+}.leftEntete3{
+	float:left;
+	width:150px;
+	margin-right:50px; 
+}.rightEntete{
+	float:right;
+	width:300px;
+}.boldItalic{
+	font-weight:bold;
+	font-style:italic;
+}.bolde{
+	font-weight:bold;
+}.leftEntete2{
+	float:left;
+	width:300px;
+	font-weight:bold;
+}.rightEntete2{
+	float:left;
+	width:300px;
+}.systemeEvaluation{
+	text-align:center;
+	border:4px solid black;
+	margin:0px -10px 0px -10px;
+}.contenu6Part{
+	width:900px;
+	margin:0px 0px 0px 20px;
+}.part200{
+	float:left;
+	width:200px;
+}.part400{
+	float:left;
+	width:400px;
+}.leftPart6{
+	float:left;
+}.rightPart6{
+	float:left;
+	margin-left:10px;
+}.contenerEnvoyer{
+	width:900px;
+	margin:0px 0px 0px 20px;
+}.contenerEnvoyerLeft{
+	float:left;
+	font-weight:bold;
+	color:#cc0000; 
+}.contenerEnvoyerRight{
+	float:right;
+}.contenuImage{
+	/*border-bottom:1px dotted black;*/
+	overflow:hidden; 
+}.image{
+	float:left;
+	width:500px;
+}p.contenu{
+	padding:10px 0px 0px 20px;
+	border-top:1px dotted black;
+}span.spanBold{
+	font-weight:bold;
+}.logo{
+	width:1022px;
+	height:134px;
+	background:url("../images/logo.gif");
+	border-bottom:1px solid #3b0909;
+}.footer{
+	padding: 3px 10px 3px 10px;
+	/*background-color:#ccccff;*/
+	background:url("../images/footer2.png");
+	text-align:center;
+	border-top:1px solid grey;
+	font-size:13px;
+	color:black;
+	height:21px;
+	line-height:18px;
+}	
+	
+.conteneurMenu{width:1024px;height:22px;}
+.rightMenu{
+	height:22px;
+	width:176px;
+	float:left;
+	overflow:visible;
+	background:url("../images/bgMenu.png");
+	border-left:1px solid #ddd;
+	color:#fff;
+	font-weight:bold;
+	font-family: Arial, sans-serif;position:relative; font-size:12px;line-height:22px;
+	text-align:center;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------Menu déroulant-------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------*/
+.menu {font-family: Arial, sans-serif;position:relative; font-size:11px; z-index:100;}
+
+.menu ul li a, .menu ul li a:visited {
+display:block; text-decoration:none; width:167px; height:20px; text-align:center; color:#fff; border-right:1px solid #3b0909;  line-height:20px;padding:1px ; font-size:12px; overflow:hidden;font-weight: bold; background:url(blank.gif);
+}
+
+.menu ul {padding:0px; margin:0px; list-style: none;}
+
+.menu ul li {float:left; position:relative;}
+
+.menu ul li ul {display: none;border-right:1px solid #3b0909;border-top: 1px solid #3b0909;}
+
+.menu ul li:hover a {color: #ddd; 
+background:url(blank_over.gif);
+}
+
+.menu ul li:hover ul {display:block; position:absolute; top:22px; left:0px; width:167px;}
+
+.menu ul li:hover ul li a.hide {
+background:url(blank.gif);
+ color:#fff;}/*sous-sous menu*/
+
+.menu ul li:hover ul li:hover a.hide {
+background:url(blank_over.gif);
+ color: #ddd;} /*lorsque l'on clique sur le sous-sous menu*/
+
+.menu ul li:hover ul li ul {display: none;}
+
+.menu ul li:hover ul li a {display:block;
+background:url(blank.gif);
+ color:#fff;font-weight: bold;}  /*sous menu non hover */
+
+.menu ul li:hover ul li a:hover {background:url(blank_over.gif);color: #ddd;}
+
+.menu ul li:hover ul li:hover ul {display:block; position:absolute; left:170px; top:-1px;}
+
+.menu ul li:hover ul li:hover ul.left {left:-170px;}
