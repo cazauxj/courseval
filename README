@@ -1,6 +1,6 @@
 Strcuture of the project:
 
-database/: a export of the database structure
+database/: an export of the database structure
 htdocs/: the source code
 documentation/: the documentation of the project
 
